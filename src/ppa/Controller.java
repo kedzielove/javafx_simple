@@ -35,4 +35,8 @@ public class Controller {
             leftPosition = true;
         }
     }
+
+    public void changeCircleColorToGreen(MouseEvent mouseEvent) {
+        ((Circle)mouseEvent.getSource()).setFill(Color.GREEN);
+    }
 }
